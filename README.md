@@ -26,6 +26,7 @@
 ```shell
 git clone https://github.com/seccome/Ehoney.git
 cd Ehoney && chmod +x quick-start.sh && ./quick-start.sh
+选择ens33虚拟网卡的ip地址作为服务器地址
 
 # 此安装过程会比较耗时、耐心等待
 
@@ -33,33 +34,10 @@ cd Ehoney && chmod +x quick-start.sh && ./quick-start.sh
 # 代表安装成功。
 ```
 
-访问 `http://IP:8082/decept-defense` 进入系统登录页
+访问 `http://IP:8082/decept-defense` 进入系统登录页  IP=ens33
 
 默认账户
        <font color=Blue>用户名: `admin`</font>
        <font color=Blue>密码: `123456`</font>
 
 <br>
-
-## 🖥️ 使用演示
-
-![操作视频](./doc/img/操作视频.gif)
-
-<br>
-
-## 🚀 效果展示
-
-- **攻击大屏**
-
-![攻击事件大屏](./doc/img/攻击事件大屏.png)
-
-- **蜜罐拓扑**
-
-![蜜罐拓扑图](./doc/img/蜜罐拓扑图.png)
-
-- **告警列表**
-
-![告警列表](./doc/img/告警列表.png)
-
-1. GitHub issue: [创建issue](https://github.com/seccome/Ehoney/issues/new )
-2. Ehoney 技术交流群: 679424748
