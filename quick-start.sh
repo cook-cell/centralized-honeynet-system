@@ -363,7 +363,12 @@ function install_Docker() {
 
   sudo tee /etc/docker/daemon.json <<-'EOF'
     {
-     "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
+#     "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
+      "registry-mirrors": [
+	        "https://docker.m.daocloud.io",
+	        "https://hub-mirror.c.163.com",
+        	"https://mirror.baidubce.com"
+	    ]
     }
 EOF
 
