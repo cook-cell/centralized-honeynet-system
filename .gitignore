@@ -18,3 +18,8 @@ site/*
 /logs/*
 .DS_Store
 /.idea/
+
+# 排除根目录下的 文件夹
+agent/
+vendor/
+tool/
